@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Catalog-Z Bootstrap 5.0 HTML Template</title>
+    <title>Aek O-cha</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="fontawesome/css/all.min.css">
     <link rel="stylesheet" href="css/templatemo-style.css">
@@ -22,7 +22,7 @@
     </div>
     <div class="row tm-mb-74 tm-row-1640">            
         <div class="col-lg-5 col-md-6 col-12 mb-3">
-            <img src="img/about.jpg" alt="Image" class="img-fluid">
+            <img src="img/A-Business-Proposal-star-Kim-Sejeong-tests-positive-for-COVID-19-currently-in-self-quarantine-after-wrapping-up-the-series-1.jpg" alt="Image" class="img-fluid">
         </div>
         <div class="col-lg-7 col-md-6 col-12">
             <div class="tm-about-img-text">

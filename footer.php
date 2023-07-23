@@ -3,7 +3,7 @@
             <div class="row">
                 <div class="col-lg-6 col-md-12 col-12 px-5 mb-5">
                     <h3 class="tm-text-primary mb-4 tm-footer-title">About AEK Ocha</h3>
-                    <p>AEK Ocha <a rel="sponsored" href="https://v5.getbootstrap.com/">Use Bootstrap 5</a> Alpha 2 HTML Template for video and photo websites. You can freely use this TemplateMo layout for a front-end integration with any kind of CMS website.</p>
+                    <p>AEK Ocha <a rel="sponsored" href="https://v5.getbootstrap.com/">Use Html5 + Bootstrap 5 + Css3 + Javascripts to Frontend and Use Php + MariaDB to Backend</a> </p>
                 </div>
                 <div class="col-lg-3 col-md-6 col-sm-6 col-12 px-5 mb-5">
                     <h3 class="tm-text-primary mb-4 tm-footer-title">Our Links</h3>
@@ -27,10 +27,10 @@
             </div>
             <div class="row">
                 <div class="col-lg-8 col-md-7 col-12 px-5 mb-3">
-                    Copyright 2023 Catalog-Z Company. All rights reserved.
+                    Copyright 2023 Aek O-cha Company. All rights reserved.
                 </div>
                 <div class="col-lg-4 col-md-5 col-12 px-5 text-right">
-                    Designed by <a href="https://templatemo.com" class="tm-text-gray" rel="sponsored" target="_parent">TemplateMo</a>
+                    Designed by <a href="https://templatemo.com" class="tm-text-gray" rel="sponsored" target="_parent">BasZy-</a>
                 </div>
             </div>
         </div>
