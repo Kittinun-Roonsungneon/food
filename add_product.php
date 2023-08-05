@@ -30,6 +30,7 @@
                 <div class="col-sm-6">
                     <div class="card">
                         <div class="card-body">
+                            <form action="/save_product.php" method="post">
                             <div class="form-group text-center">
                                 <label for="name" class="form-label">Name:</label>
                                 <input type="text" class="form-control" id="name" placeholder="ชื่อสินค้า" name="name">
@@ -42,8 +43,9 @@
                             </div>
 
                             <div class="text-center"> <!-- Center the button within this div -->
-                                <button type="submit" class="btn btn-primary" id="submitBtn">Submit</button>
+                                <button type="submit" class="btn btn-primary" id="submit" name="submit">Submit</button>
                             </div>
+                            </form>
                         </div>
                     </div>
                 </div>
@@ -51,10 +53,11 @@
         </div>
         <br>
     </div> <!-- container-fluid, tm-container-content -->
-
+    
     <?php
-    include('footer.php');
+        include('footer.php');
     ?>
+    
 </body>
 <script src="js/plugins.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -62,39 +65,6 @@
     $(window).on("load", function() {
         $('body').addClass('loaded');
     });
-
-        // Function to handle the form submission for adding a product
-        $(document).ready(function() {
-            $('#submitBtn').click(function() {
-                var formData = new FormData();
-                formData.append('name', $('#name').val());
-                formData.append('description', $('#description').val());
-                formData.append('price', $('#price').val());
-                formData.append('image', $('#image')[0].files[0]);
-                console.log(formData);
-                $.ajax({
-                    url: 'crud.php',
-                    type: 'POST',
-                    data: formData,
-                    dataType: 'json',
-                    processData: false, // Don't process the data (required for FormData)
-                    contentType: false, // Don't set the content type (required for FormData)
-                    success: function(data) {
-                        if (data.success) {
-                            // Product inserted successfully, do something (e.g., show a success message)
-                            console.log('Product inserted successfully!');
-                            // You can add any additional handling, like refreshing the table or displaying a success message
-                        } else {
-                            // Product insertion failed, do something (e.g., show an error message)
-                            console.error('Product insertion failed.');
-                        }
-                    },
-                    error: function(xhr, status, error) {
-                        console.error('Error inserting product:', error);
-                    }
-                });
-            });
-        });
     
 </script>
 
